@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+
+# API keys - NEVER commit this
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Data files - PDFs can be large
+phase1-rag/data/
+
+# FAISS index files
+*.index
+*.faiss
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

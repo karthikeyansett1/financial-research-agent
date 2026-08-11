@@ -1,0 +1,20 @@
+# LLM API
+groq
+
+# Embeddings and vector search
+sentence-transformers
+faiss-cpu
+
+# PDF processing
+pypdf
+
+# LangChain core
+langchain
+langchain-community
+langchain-groq
+
+# UI
+gradio
+
+# Environment variables
+python-dotenv
