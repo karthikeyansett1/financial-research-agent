@@ -40,6 +40,10 @@ ANSWER:"""
 
     answer = response.choices[0].message.content
 
+    # strip internal reasoning block if model returns one
+    if "<think>" in answer and "</think>" in answer:
+        answer = answer.split("</think>")[-1].strip()
+
     return {
         "question": query,
         "answer": answer,
